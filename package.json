@@ -1,0 +1,50 @@
+{
+  "name": "webstack-frontend-generic-ts",
+  "version": "0.0.1",
+  "description": "Boilerplate for generic frontend using vite and ts",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "serve": "vite preview",
+    "test": "jest",
+    "clean": "rimraf './build/' './dist/' './node_modules/.cache/*' './node_modules/.log/*'",
+    "fix": "eslint --fix ./src/**/*",
+    "tsc": "tsc"
+  },
+  "browserslist": [
+    "defaults",
+    "last 2 years"
+  ],
+  "engines": {
+    "node": ">=15.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juddus/webstack-frontend-generic-ts.git"
+  },
+  "author": "juddus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juddus/webstack-frontend-generic-ts/issues"
+  },
+  "homepage": "https://github.com/juddus/webstack-frontend-generic-ts#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.12.5",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.4",
+    "vite": "^2.3.8"
+  }
+}
